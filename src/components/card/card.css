@@ -1,0 +1,13 @@
+.file{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.card-body{
+    padding-left: 15px;
+    padding-right: 15px;
+}
