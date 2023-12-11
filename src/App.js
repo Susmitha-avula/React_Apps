@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Email from './Components/EmailValidation';
+import Register from './Components/Registration';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h3>Email and Password Validation</h3>
+      <Email/>
+      <h3>Registration Form</h3>
+      <Register />
     </div>
   );
 }
